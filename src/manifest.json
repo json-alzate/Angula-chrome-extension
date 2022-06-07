@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Angular Extension",
+    "description": "Una extension construida con Angular",
+    "version": "2.0",
+    "permissions": [
+        "activeTab",
+        "webNavigation"
+    ],
+    "background": {
+        "scripts": [
+            "background.js",
+            "runtime.js"
+        ]
+    },
+    "page_action": {
+        "default_icon": "icon.png",
+        "default_popup": "index.html"
+    }
+}
